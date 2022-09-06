@@ -48,9 +48,8 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this project, I used the 'font' shorthand property and will start to use it on my future projects.  The 'border-radius: 100vh' is the code I used to have perfect border-radius on the button, I learned this on one of the videos of Kevin Powell
 
-To see how you can add code snippets, see below:
 
 ```css
 h1 {
@@ -64,7 +63,7 @@ button {
 
 ### Continued development
 
-On the next projects, I'm gonna fix my previous designs on Frontend Mentor.
+On the next projects, I'm gonna fix my previous designs on Frontend Mentor, week by week. I will start to study Javascript to be able to progress on Frontend Mentor challenges. 
 
 
 ## Author
