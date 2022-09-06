@@ -1,0 +1,32 @@
+@use '../abstracts' as a;
+
+.home {
+    // display: grid;
+    // grid-gap: 5%;
+    
+    @media (min-width: map-get(a.$breakpoints, 'medium')) {
+        display: grid;
+        grid-gap: 5%;
+        grid-template-columns: repeat(2, minmax(50% - 10%, 1fr));
+        grid-template-rows: repeat(2, auto);
+    }
+    
+    &__details {
+        @media (max-width: map-get(a.$breakpoints, 'medium')) {
+            display: grid;
+            justify-items: center;
+        }
+    }
+
+    &__logo {
+        @media (max-width: map-get(a.$breakpoints, 'medium')) {
+            display: flex;
+            justify-content: center;
+        }
+        @media (min-width: map-get(a.$breakpoints, 'medium')) {
+            grid-area: 2 / 2;
+            justify-self: end;
+            margin: 0;
+        }
+    }
+}

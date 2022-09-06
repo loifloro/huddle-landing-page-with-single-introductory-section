@@ -1,0 +1,29 @@
+@use '../abstracts' as a;
+
+
+/**
+ * Basic typography style for copy text
+ */
+
+
+h1 {
+    color: white;
+    text-align: center;
+
+    font: 800 1.5rem Poppins , sans-serif;
+
+    @media (min-width: map-get(a.$breakpoints, 'medium')) {
+        text-align: left;
+        font-size: 2rem;
+    }
+}
+
+p {
+    color: white;
+    text-align: center;
+    font:  1rem Open Sans , sans-serif;
+
+    @media (min-width: map-get(a.$breakpoints, 'medium')) {
+        text-align: left;
+    }
+}

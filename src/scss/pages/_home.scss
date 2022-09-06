@@ -1,0 +1,21 @@
+@use '../abstracts/' as a;
+
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+body {
+    margin: 0 10%;
+
+    @media (min-width: map-get(a.$breakpoints, 'large')) {
+        margin: 0 5%;
+    }
+}
+
+.home {
+
+    &__mockup {
+        width: 100%;
+        margin: 10px 0;
+    }
+} 
