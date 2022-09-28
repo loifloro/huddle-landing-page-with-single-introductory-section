@@ -47,14 +47,16 @@ h1 {
 @media (min-width: 768px) {
   h1 {
     text-align: left;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 
 p {
   color: white;
   text-align: center;
-  font: 1rem Open Sans, sans-serif;
+  font-size: 1.1rem;
+  font-family: Open Sans, serif;
+  font-weight: 400;
 }
 @media (min-width: 768px) {
   p {
@@ -96,11 +98,14 @@ i:hover {
   color: hsl(300deg, 69%, 71%);
 }
 
+.home {
+  display: grid;
+  place-content: center;
+}
 @media (min-width: 768px) {
   .home {
-    display: grid;
     grid-gap: 5%;
-    grid-template-columns: repeat(2, minmax(40%, 1fr));
+    grid-template-columns: 55% auto;
     grid-template-rows: repeat(2, auto);
   }
 }
@@ -147,6 +152,9 @@ header img {
 
 body {
   margin: 0 10%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 5% 1fr;
 }
 @media (min-width: 1024px) {
   body {
@@ -156,7 +164,12 @@ body {
 
 .home__mockup {
   width: 100%;
-  margin: 10px 0;
+  margin: 10% 0;
+}
+@media (min-width: 1024px) {
+  .home__mockup {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
