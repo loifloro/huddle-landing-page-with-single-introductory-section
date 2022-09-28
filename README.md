@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/loifloro/huddle-landing-page-with-single-introductory-section-master)
-- Live Site URL: [Github Pages](https://loifloro.github.io/huddle-landing-page-with-single-introductory-section-master/dist/)
+- Solution URL: [Github](https://github.com/loifloro/huddle-landing-page-with-single-introductory-section)
+- Live Site URL: [Github Pages](https://loifloro.github.io/huddle-landing-page-with-single-introductory-section/dist/)
 
 ## My process
 
