@@ -1,13 +1,13 @@
 @use '../abstracts' as a;
 
 .home {
-    // display: grid;
     // grid-gap: 5%;
+    display: grid;
+    place-content: center;
     
     @media (min-width: map-get(a.$breakpoints, 'medium')) {
-        display: grid;
         grid-gap: 5%;
-        grid-template-columns: repeat(2, minmax(50% - 10%, 1fr));
+        grid-template-columns: 55% auto;
         grid-template-rows: repeat(2, auto);
     }
     
